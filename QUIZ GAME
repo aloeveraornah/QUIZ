@@ -1,6 +1,6 @@
 from PIL import Image #this allows for images to be imported from files
-cat = Image.open("/Users/chrispark/Downloads/cat.jpeg") #this line and below it derives the jpeg image from my files
-meow = Image.open("/Users/chrispark/Downloads/meow.jpeg")
+cat = Image.open("cat.jpeg") #this line and below it derives the jpeg image from my files
+meow = Image.open("meow.jpeg")
 
 #the list below is a dictionary where I will use indexes corresponding to the keys and values
 questions_list = { 
